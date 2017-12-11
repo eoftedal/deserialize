@@ -40,7 +40,7 @@ Accept: application/xml
 </dynamic-proxy> 
 ```
 
-## XEE
+## XXE
 
 ```
 POST /api/contacts HTTP/1.1
