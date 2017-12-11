@@ -69,4 +69,7 @@ Accept: application/xml
 </contact>
 ```
 
+# Resources
+http://www.pwntester.com/blog/2013/12/23/rce-via-xstream-object-deserialization38/
+
 
