@@ -1,9 +1,16 @@
 # Sample Spring MVC API vulnerable to deserialization attacks
 
 1. `git clone https://github.com/eoftedal/deserialize.git`
-2. `mvn clean install jetty:run`
+2. `cd deserialize`
+3. `mvn clean install jetty:run`
 
 Accessible on port 8080
+
+### Running in docker
+1. `git clone https://github.com/eoftedal/deserialize.git`
+2. `cd deserialize`
+3. `docker run -v `pwd`:/data -p 8080:8080 -it maven /bin/bash`
+4. `mvn clean install jetty:run`
 
 ## Normal request
 
