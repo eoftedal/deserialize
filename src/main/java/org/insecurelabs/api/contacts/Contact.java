@@ -6,8 +6,8 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlRootElement(name = "contact")
 public interface Contact {
 
-	public String getId();
-	public void setId(String id);
+	public int getId();
+	public void setId(int id);
 	public String getFirstName();
 	public void setFirstName(String firstName);
 	public String getLastName();

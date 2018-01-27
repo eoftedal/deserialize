@@ -6,7 +6,6 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Vulnerable REST API</name>
-	<url>https://github.com/eoftedal/deserialize.git</url>
 	
 	<properties>
 		<spring.version>4.0.0.RELEASE</spring.version>
@@ -67,6 +66,11 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+<dependency>
+    <groupId>net.sf.saxon</groupId>
+    <artifactId>saxon</artifactId>
+    <version>8.5.1</version>
+</dependency>
 
 
 		<!-- Validation -->

