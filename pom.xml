@@ -153,6 +153,10 @@
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.0.6.v20130930</version>
 				<configuration>
+					<httpConnector>
+          	<host>localhost</host>
+          	<port>8080</port>
+        	</httpConnector>					
 					<webApp>
 						<contextPath>/api</contextPath>
 					</webApp>
