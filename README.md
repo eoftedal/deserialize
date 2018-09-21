@@ -1,4 +1,11 @@
-# Sample Spring MVC API vulnerable to deserialization attacks
+# Vulnerable Spring MVC API
+Vulnerable to:
+
+* deserialization attacks (OWASP Top 10 A8)
+* XXE (OWASP Top 10 A4)
+* XSLT abuse (XSLT 1.0 and 2.0) 
+
+### Running with maven
 
 1. `git clone https://github.com/eoftedal/deserialize.git`
 2. `cd deserialize`
@@ -85,6 +92,7 @@ Content-Length: 241
 </xsl:stylesheet>
 ```
 
+You can also use URLs instead of file names with `unparsed-text()`. And of course XXE in the XSLT.
 
 # Resources
 http://www.pwntester.com/blog/2013/12/23/rce-via-xstream-object-deserialization38/
