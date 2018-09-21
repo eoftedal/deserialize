@@ -2,7 +2,7 @@
 
 1. `git clone https://github.com/eoftedal/deserialize.git`
 2. `cd deserialize`
-3. `mvn clean install jetty:run`
+3. `mvn jetty:run`
 
 Accessible on port 8080
 
