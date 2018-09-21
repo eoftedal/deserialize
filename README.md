@@ -9,9 +9,8 @@ Accessible on port 8080
 ### Running in docker
 1. `git clone https://github.com/eoftedal/deserialize.git`
 2. `cd deserialize`
-3. `docker run -v $(pwd):/data -p 8080:8080 -it maven /bin/bash`
-4. `cd /data`
-5. `mvn clean install jetty:run`
+3. `docker build -t deserialize .`
+4. `docker run -p 8080:8080 -it deserialize`
 
 ## Normal request
 
