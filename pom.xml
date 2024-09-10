@@ -8,11 +8,11 @@
 	<name>Vulnerable REST API</name>
 	
 	<properties>
-		<spring.version>4.0.0.RELEASE</spring.version>
+		<spring.version>4.3.30.RELEASE</spring.version>
 		<jetty.version>6.1.26</jetty.version>
-		<slf4j.version>1.6.1</slf4j.version>
+		<slf4j.version>1.7.36</slf4j.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<log4j.version>1.2.16</log4j.version>
+		<log4j.version>1.2.17</log4j.version>
 	</properties>
 	
 	<dependencies>
@@ -69,7 +69,7 @@
 <dependency>
     <groupId>net.sf.saxon</groupId>
     <artifactId>saxon</artifactId>
-    <version>8.5.1</version>
+    <version>8.7</version>
 </dependency>
 
 
@@ -77,21 +77,21 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>4.2.0.Final</version>
+			<version>4.3.2.Final</version>
 		</dependency>
 
 		<!-- Jackson JSON Mapper -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.7.1</version>
+			<version>1.9.13</version>
 		</dependency>
 
 		<!-- XML Mapper -->
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
-			<version>1.4.4</version>
+			<version>1.4.20</version>
 			<optional>false</optional>
 		</dependency>
 
